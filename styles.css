@@ -1,0 +1,94 @@
+*{
+    margin: 0;;
+    padding: 0;
+}
+body{
+    font-family: consolas;
+    background-color: black;
+}
+.container{
+ width: 460px;
+ height: 240px;   
+display: flex;
+flex-wrap: wrap;
+margin: auto;
+justify-content: center;
+margin-top: 200px;
+border-radius: 8px;
+background-color: #157097;
+}
+.box-1{
+    width: 50%;
+    height: 100%;
+    background-color: #16688b;
+    border-radius: 8px;
+    opacity: 0.8;
+    clip-path: polygon(20% 0%, 100% 0%, 100% 20%, 100% 100%, 84% 70%, 46% 59%, 35% 21%, 0 0);       
+}
+.box-1 h2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 23px;
+    font-weight: bold;
+    color:white;
+    background-color: rgb(16, 88, 16);
+}
+.box-1 p{
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 85px;
+}
+.box-2{
+    border-radius: 8px;
+    width: 50%;
+    height: 100%;
+    background-color: #157097;
+    position: relative;
+}
+.box-2 h2{
+    text-align: center;
+    background-color:  rgb(16, 88, 16);
+    margin-top: 23px;
+    color: orange;
+}
+.box-2 span{
+    color: white;
+}
+.box-2 .icons{
+    float: right;
+    padding: 2px 15px;
+    color: white;
+}
+.box-2 .code{
+    color:gold;
+    position: absolute;
+    top: 175px;
+}
+.code span{
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+    border-bottom: 1px solid orange;
+}
+.valid p{
+    position: relative;
+    top: 10px;
+    left: 60px;
+    font-size: 12px;
+    font-weight: bold;
+    color: gold;
+}
+.last{
+    position: relative;
+    left: 110px;
+    top: 20px;
+}
+.user{
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 130px;
+    right: 190px;
+    border-bottom: 1px solid orange;
+    width: 120px;
+}
